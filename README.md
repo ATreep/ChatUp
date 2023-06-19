@@ -49,14 +49,23 @@ Or you could download and install them manually.
 https://1drv.ms/u/s!AouY4vmTrbY6g6EPYDaDpKJxSr68qw?e=fSVB3U
 ```
 ## Configurate Modules
-1. Install modules by :
-```batch
+### Install Required Modules
+```commandline
 pip install -r requirements.txt
 ```
-2. Install SpaCy model of Chinese by:
-```batch
+### Install SpaCy Model of Chinese
+```commandline
 cd Runtime\spacy
 pip install zh_core_web_trf-3.5.0.tar.gz
 ```
-3. Copy folder **Runtime\nltk_data** to **C:\Users\\&lt;username>\AppData\Roaming\nltk_data**
-4. Get APP_ID, API_KEY and SECRET_KEY from [Baidu AI Cloud](https://cloud.baidu.com/). Fill in **baidu_api.py** with your ID and Keys.
+### Install NLTK WordNet
+Copy folder **Runtime\nltk_data** to **C:\Users\\&lt;username>\AppData\Roaming\nltk_data**
+### Configure API ID and Keys of Baidu AI Cloud
+- Get APP_ID, API_KEY and SECRET_KEY from [Baidu AI Cloud](https://cloud.baidu.com/).
+- Create **baidu_api.py** file in the root directory of project.
+- Fill in **baidu_api.py** with your ID and Keys. Such as:
+```python
+APP_ID = '12345678'
+API_KEY = '73vLejhCrD79Ok4qTMgauIhC'
+SECRET_KEY = 'U89Gz9uX9wltjugZyBlRQt8hicNxendg'
+```
