@@ -1,5 +1,8 @@
 # Introduction
 ChatUp, a simple Chinese voice assistant based on NLP.
+
+![Screenshot](/Screenshots/Screenshot%202023-06-16.png)
+
 ## Functions
 - Resolve simple mathematical problems.
         
