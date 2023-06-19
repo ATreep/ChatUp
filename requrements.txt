@@ -1,0 +1,13 @@
+spacy
+baidu-aip
+pyaudio
+keyboard
+requests
+pydub
+nltk
+jieba
+xpinyin
+lxml
+bs4
+cn2an
+numexpr
